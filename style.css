@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #292929;
+    ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #17191A;
+    ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #17191A;
+    ;
+}
+
+.container{
+    padding: 1rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.container .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top h3{
+    text-align:center;
+}
+
+.bulb {
+    font-size: 18px;
+}
+
+.quotes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.quotes-container .quote{
+    padding: 20px;
+    background: rgb(21, 21, 21);
+    border-radius: 10px;
+}
+
+.quote span{
+    font-size: 20px;
+}
+
+.full-quotes{
+    position: fixed;
+    height: 100%;
+    background: black;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    display: none;
+}
+
+.top-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-part i{
+    cursor: pointer;
+}
+
+
+.big-quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.big-quotes .quote{
+    padding: 20px;
+    background: rgb(21, 21, 21);
+    border-radius: 10px;
+
+}
+
+.copyToClipboard{
+    margin-top: 1rem;
+    background: rgb(21, 21, 21);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.tip-container{
+    position: fixed;
+    position: fixed;
+    height: 100%;
+    background: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.tip{
+    padding: 20px;
+    background: rgb(21, 21, 21);
+    border-radius: 10px;
+}
+
+.tip p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.back-to-menu{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
